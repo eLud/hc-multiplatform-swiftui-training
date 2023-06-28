@@ -29,7 +29,7 @@ struct RestaurantImageCell: View {
         .overlay {
             if isFocused {
                 RoundedRectangle(cornerRadius: 20)
-                    .stroke(Color.red, lineWidth: 5)
+                    .stroke(Color.red, lineWidth: 10)
             }
         }
         .hoverEffect()

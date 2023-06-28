@@ -17,7 +17,34 @@
 		337BEC802A4ADCBA007A1FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337BEC7F2A4ADCBA007A1FE5 /* Assets.xcassets */; };
 		337BEC842A4ADCBA007A1FE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337BEC832A4ADCBA007A1FE5 /* Preview Assets.xcassets */; };
 		337D2A582A4C6B560054F5CA /* RestaurantImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337D2A572A4C6B560054F5CA /* RestaurantImageCell.swift */; };
+		337D2A5F2A4C70930054F5CA /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D2A5E2A4C70930054F5CA /* TVServices.framework */; };
+		337D2A622A4C70930054F5CA /* ContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337D2A612A4C70930054F5CA /* ContentProvider.swift */; };
+		337D2A662A4C70930054F5CA /* FouDeFoodTopShelf.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 337D2A5D2A4C70930054F5CA /* FouDeFoodTopShelf.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		337D2A642A4C70930054F5CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 337BEC702A4ADCB8007A1FE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 337D2A5C2A4C70930054F5CA;
+			remoteInfo = FouDeFoodTopShelf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		337D2A6A2A4C70930054F5CA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				337D2A662A4C70930054F5CA /* FouDeFoodTopShelf.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		333430BE2A4C1DDF00A412E8 /* Common */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Common; path = ../Common; sourceTree = "<group>"; };
@@ -32,6 +59,11 @@
 		337BEC812A4ADCBA007A1FE5 /* FouDeFood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FouDeFood.entitlements; sourceTree = "<group>"; };
 		337BEC832A4ADCBA007A1FE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		337D2A572A4C6B560054F5CA /* RestaurantImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantImageCell.swift; sourceTree = "<group>"; };
+		337D2A5D2A4C70930054F5CA /* FouDeFoodTopShelf.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FouDeFoodTopShelf.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		337D2A5E2A4C70930054F5CA /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = Library/Frameworks/TVServices.framework; sourceTree = DEVELOPER_DIR; };
+		337D2A612A4C70930054F5CA /* ContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentProvider.swift; sourceTree = "<group>"; };
+		337D2A632A4C70930054F5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		337D2A6B2A4C778C0054F5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,12 +83,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		337D2A5A2A4C70930054F5CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337D2A5F2A4C70930054F5CA /* TVServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		333430BF2A4C1E4B00A412E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				337D2A5E2A4C70930054F5CA /* TVServices.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -64,6 +105,7 @@
 		333430C72A4C3F0100A412E8 /* FouDeFoodTV */ = {
 			isa = PBXGroup;
 			children = (
+				337D2A6B2A4C778C0054F5CA /* Info.plist */,
 				333430C82A4C3F0100A412E8 /* FouDeFoodTVApp.swift */,
 				333430CA2A4C3F0100A412E8 /* ContentView.swift */,
 				337D2A572A4C6B560054F5CA /* RestaurantImageCell.swift */,
@@ -87,6 +129,7 @@
 				33A45FB32A4C1D87009E0F74 /* Packages */,
 				337BEC7A2A4ADCB8007A1FE5 /* FouDeFood */,
 				333430C72A4C3F0100A412E8 /* FouDeFoodTV */,
+				337D2A602A4C70930054F5CA /* FouDeFoodTopShelf */,
 				337BEC792A4ADCB8007A1FE5 /* Products */,
 				333430BF2A4C1E4B00A412E8 /* Frameworks */,
 			);
@@ -97,6 +140,7 @@
 			children = (
 				337BEC782A4ADCB8007A1FE5 /* FouDeFood.app */,
 				333430C62A4C3F0100A412E8 /* FouDeFoodTV.app */,
+				337D2A5D2A4C70930054F5CA /* FouDeFoodTopShelf.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +180,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		337D2A602A4C70930054F5CA /* FouDeFoodTopShelf */ = {
+			isa = PBXGroup;
+			children = (
+				337D2A612A4C70930054F5CA /* ContentProvider.swift */,
+				337D2A632A4C70930054F5CA /* Info.plist */,
+			);
+			path = FouDeFoodTopShelf;
+			sourceTree = "<group>";
+		};
 		33A45FB32A4C1D87009E0F74 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,10 +207,12 @@
 				333430C22A4C3F0100A412E8 /* Sources */,
 				333430C32A4C3F0100A412E8 /* Frameworks */,
 				333430C42A4C3F0100A412E8 /* Resources */,
+				337D2A6A2A4C70930054F5CA /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				337D2A652A4C70930054F5CA /* PBXTargetDependency */,
 			);
 			name = FouDeFoodTV;
 			packageProductDependencies = (
@@ -187,6 +242,23 @@
 			productReference = 337BEC782A4ADCB8007A1FE5 /* FouDeFood.app */;
 			productType = "com.apple.product-type.application";
 		};
+		337D2A5C2A4C70930054F5CA /* FouDeFoodTopShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 337D2A672A4C70930054F5CA /* Build configuration list for PBXNativeTarget "FouDeFoodTopShelf" */;
+			buildPhases = (
+				337D2A592A4C70930054F5CA /* Sources */,
+				337D2A5A2A4C70930054F5CA /* Frameworks */,
+				337D2A5B2A4C70930054F5CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FouDeFoodTopShelf;
+			productName = FouDeFoodTopShelf;
+			productReference = 337D2A5D2A4C70930054F5CA /* FouDeFoodTopShelf.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,6 +273,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					337BEC772A4ADCB8007A1FE5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					337D2A5C2A4C70930054F5CA = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
@@ -222,6 +297,7 @@
 			targets = (
 				337BEC772A4ADCB8007A1FE5 /* FouDeFood */,
 				333430C52A4C3F0100A412E8 /* FouDeFoodTV */,
+				337D2A5C2A4C70930054F5CA /* FouDeFoodTopShelf */,
 			);
 		};
 /* End PBXProject section */
@@ -242,6 +318,13 @@
 			files = (
 				337BEC842A4ADCBA007A1FE5 /* Preview Assets.xcassets in Resources */,
 				337BEC802A4ADCBA007A1FE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		337D2A5B2A4C70930054F5CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,12 +349,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		337D2A592A4C70930054F5CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337D2A622A4C70930054F5CA /* ContentProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		337D2A652A4C70930054F5CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 337D2A5C2A4C70930054F5CA /* FouDeFoodTopShelf */;
+			targetProxy = 337D2A642A4C70930054F5CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		333430D22A4C3F0200A412E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -280,6 +380,7 @@
 				DEVELOPMENT_TEAM = A7SGM6JEMA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FouDeFoodTV/Info.plist;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,6 +401,7 @@
 		333430D32A4C3F0200A412E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,6 +410,7 @@
 				DEVELOPMENT_TEAM = A7SGM6JEMA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FouDeFoodTV/Info.plist;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +614,61 @@
 			};
 			name = Release;
 		};
+		337D2A682A4C70930054F5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FouDeFoodTopShelf/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FouDeFoodTopShelf;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFoodTV.FouDeFoodTopShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+			};
+			name = Debug;
+		};
+		337D2A692A4C70930054F5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FouDeFoodTopShelf/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FouDeFoodTopShelf;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFoodTV.FouDeFoodTopShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -537,6 +695,15 @@
 			buildConfigurations = (
 				337BEC882A4ADCBA007A1FE5 /* Debug */,
 				337BEC892A4ADCBA007A1FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		337D2A672A4C70930054F5CA /* Build configuration list for PBXNativeTarget "FouDeFoodTopShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337D2A682A4C70930054F5CA /* Debug */,
+				337D2A692A4C70930054F5CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

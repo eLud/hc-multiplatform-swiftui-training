@@ -22,10 +22,15 @@ struct ContentView: View {
                     .font(.headline)
                 lastRestaurantsScrollView
 
-                Text("Last restaurants")
+                Text("Top rated restaurants")
+                    .font(.headline)
+                lastRestaurantsScrollView
+
+                Text("Worst restaurants")
                     .font(.headline)
                 lastRestaurantsScrollView
             }
+            .edgesIgnoringSafeArea(.all)
             .overlay(alignment: .trailing) {
                 if showPanel {
                     RoundedRectangle(cornerRadius: 15)
@@ -42,7 +47,9 @@ struct ContentView: View {
         ScrollView(.horizontal) {
             LazyHGrid(rows: columns) {
                 ForEach(data.restaurants) { r in
-                    RestaurantImageCell(restaurant: r)
+                    NavigationLink(destination: RestaurantDetailsView(restaurant: r)) {
+                        RestaurantImageCell(restaurant: r)
+                    }.buttonStyle(.card)
                 }
             }
             .padding()

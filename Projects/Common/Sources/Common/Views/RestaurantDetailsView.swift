@@ -33,6 +33,7 @@ public struct RestaurantDetailsView: View {
             }
             Spacer()
         }
+        .navigationTitle(restaurant.name)
     }
 
     @ViewBuilder
