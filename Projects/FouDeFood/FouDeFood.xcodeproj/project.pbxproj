@@ -8,21 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		333430C12A4C1E4B00A412E8 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = 333430C02A4C1E4B00A412E8 /* Common */; };
+		333430C92A4C3F0100A412E8 /* FouDeFoodTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333430C82A4C3F0100A412E8 /* FouDeFoodTVApp.swift */; };
+		333430CB2A4C3F0100A412E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333430CA2A4C3F0100A412E8 /* ContentView.swift */; };
+		333430CD2A4C3F0200A412E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333430CC2A4C3F0200A412E8 /* Assets.xcassets */; };
+		333430D02A4C3F0200A412E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333430CF2A4C3F0200A412E8 /* Preview Assets.xcassets */; };
+		333430D52A4C421700A412E8 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = 333430D42A4C421700A412E8 /* Common */; };
 		337BEC7C2A4ADCB8007A1FE5 /* FouDeFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC7B2A4ADCB8007A1FE5 /* FouDeFoodApp.swift */; };
 		337BEC802A4ADCBA007A1FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337BEC7F2A4ADCBA007A1FE5 /* Assets.xcassets */; };
 		337BEC842A4ADCBA007A1FE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337BEC832A4ADCBA007A1FE5 /* Preview Assets.xcassets */; };
+		337D2A582A4C6B560054F5CA /* RestaurantImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337D2A572A4C6B560054F5CA /* RestaurantImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		333430BE2A4C1DDF00A412E8 /* Common */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Common; path = ../Common; sourceTree = "<group>"; };
+		333430C62A4C3F0100A412E8 /* FouDeFoodTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FouDeFoodTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333430C82A4C3F0100A412E8 /* FouDeFoodTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FouDeFoodTVApp.swift; sourceTree = "<group>"; };
+		333430CA2A4C3F0100A412E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		333430CC2A4C3F0200A412E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		333430CF2A4C3F0200A412E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		337BEC782A4ADCB8007A1FE5 /* FouDeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FouDeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		337BEC7B2A4ADCB8007A1FE5 /* FouDeFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FouDeFoodApp.swift; sourceTree = "<group>"; };
 		337BEC7F2A4ADCBA007A1FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		337BEC812A4ADCBA007A1FE5 /* FouDeFood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FouDeFood.entitlements; sourceTree = "<group>"; };
 		337BEC832A4ADCBA007A1FE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		337D2A572A4C6B560054F5CA /* RestaurantImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		333430C32A4C3F0100A412E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333430D52A4C421700A412E8 /* Common in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		337BEC752A4ADCB8007A1FE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,11 +61,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		333430C72A4C3F0100A412E8 /* FouDeFoodTV */ = {
+			isa = PBXGroup;
+			children = (
+				333430C82A4C3F0100A412E8 /* FouDeFoodTVApp.swift */,
+				333430CA2A4C3F0100A412E8 /* ContentView.swift */,
+				337D2A572A4C6B560054F5CA /* RestaurantImageCell.swift */,
+				333430CC2A4C3F0200A412E8 /* Assets.xcassets */,
+				333430CE2A4C3F0200A412E8 /* Preview Content */,
+			);
+			path = FouDeFoodTV;
+			sourceTree = "<group>";
+		};
+		333430CE2A4C3F0200A412E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				333430CF2A4C3F0200A412E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		337BEC6F2A4ADCB8007A1FE5 = {
 			isa = PBXGroup;
 			children = (
 				33A45FB32A4C1D87009E0F74 /* Packages */,
 				337BEC7A2A4ADCB8007A1FE5 /* FouDeFood */,
+				333430C72A4C3F0100A412E8 /* FouDeFoodTV */,
 				337BEC792A4ADCB8007A1FE5 /* Products */,
 				333430BF2A4C1E4B00A412E8 /* Frameworks */,
 			);
@@ -55,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				337BEC782A4ADCB8007A1FE5 /* FouDeFood.app */,
+				333430C62A4C3F0100A412E8 /* FouDeFoodTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +147,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		333430C52A4C3F0100A412E8 /* FouDeFoodTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333430D12A4C3F0200A412E8 /* Build configuration list for PBXNativeTarget "FouDeFoodTV" */;
+			buildPhases = (
+				333430C22A4C3F0100A412E8 /* Sources */,
+				333430C32A4C3F0100A412E8 /* Frameworks */,
+				333430C42A4C3F0100A412E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FouDeFoodTV;
+			packageProductDependencies = (
+				333430D42A4C421700A412E8 /* Common */,
+			);
+			productName = FouDeFoodTV;
+			productReference = 333430C62A4C3F0100A412E8 /* FouDeFoodTV.app */;
+			productType = "com.apple.product-type.application";
+		};
 		337BEC772A4ADCB8007A1FE5 /* FouDeFood */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 337BEC872A4ADCBA007A1FE5 /* Build configuration list for PBXNativeTarget "FouDeFood" */;
@@ -135,6 +197,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					333430C52A4C3F0100A412E8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					337BEC772A4ADCB8007A1FE5 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -156,11 +221,21 @@
 			projectRoot = "";
 			targets = (
 				337BEC772A4ADCB8007A1FE5 /* FouDeFood */,
+				333430C52A4C3F0100A412E8 /* FouDeFoodTV */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		333430C42A4C3F0100A412E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333430D02A4C3F0200A412E8 /* Preview Assets.xcassets in Resources */,
+				333430CD2A4C3F0200A412E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		337BEC762A4ADCB8007A1FE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,6 +248,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		333430C22A4C3F0100A412E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333430CB2A4C3F0100A412E8 /* ContentView.swift in Sources */,
+				333430C92A4C3F0100A412E8 /* FouDeFoodTVApp.swift in Sources */,
+				337D2A582A4C6B560054F5CA /* RestaurantImageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		337BEC742A4ADCB8007A1FE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,6 +269,63 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		333430D22A4C3F0200A412E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FouDeFoodTV/Preview Content\"";
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFoodTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+			};
+			name = Debug;
+		};
+		333430D32A4C3F0200A412E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FouDeFoodTV/Preview Content\"";
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFoodTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		337BEC852A4ADCBA007A1FE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -372,6 +514,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		333430D12A4C3F0200A412E8 /* Build configuration list for PBXNativeTarget "FouDeFoodTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333430D22A4C3F0200A412E8 /* Debug */,
+				333430D32A4C3F0200A412E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		337BEC732A4ADCB8007A1FE5 /* Build configuration list for PBXProject "FouDeFood" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -394,6 +545,10 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		333430C02A4C1E4B00A412E8 /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Common;
+		};
+		333430D42A4C421700A412E8 /* Common */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Common;
 		};

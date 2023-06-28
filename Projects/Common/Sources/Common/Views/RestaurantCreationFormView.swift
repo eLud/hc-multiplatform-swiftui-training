@@ -39,8 +39,10 @@ public struct RestaurantCreationFormView: View {
             Section {
                 Button("Create restaurant") {
                     let resto = Restaurant(name: name, address: address, restaurantType: restaurantType, foodStyle: foodStyle)
-                    data.addRestaurant(resto)
-                    dismiss()
+                    Task {
+                        _ = await data.addRestaurant(resto)
+                        dismiss()
+                    }
                 }
             }
         }
