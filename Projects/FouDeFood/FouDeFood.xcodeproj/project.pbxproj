@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		337BEC7C2A4ADCB8007A1FE5 /* FouDeFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC7B2A4ADCB8007A1FE5 /* FouDeFoodApp.swift */; };
+		337BEC7E2A4ADCB8007A1FE5 /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC7D2A4ADCB8007A1FE5 /* FoodListView.swift */; };
+		337BEC802A4ADCBA007A1FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337BEC7F2A4ADCBA007A1FE5 /* Assets.xcassets */; };
+		337BEC842A4ADCBA007A1FE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337BEC832A4ADCBA007A1FE5 /* Preview Assets.xcassets */; };
+		337BEC8B2A4ADD0F007A1FE5 /* FoodOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC8A2A4ADD0F007A1FE5 /* FoodOrderView.swift */; };
+		337BEC8E2A4ADE01007A1FE5 /* RestaurantCreationFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC8D2A4ADE01007A1FE5 /* RestaurantCreationFormView.swift */; };
+		337BEC912A4ADEA7007A1FE5 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC902A4ADEA7007A1FE5 /* Restaurant.swift */; };
+		337BEC932A4ADEC9007A1FE5 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC922A4ADEC9007A1FE5 /* AppData.swift */; };
+		337BEC952A4AE0E6007A1FE5 /* RestaurantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC942A4AE0E6007A1FE5 /* RestaurantDetailsView.swift */; };
+		337BEC972A4AE2E1007A1FE5 /* ImageAndSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC962A4AE2E1007A1FE5 /* ImageAndSubtitleView.swift */; };
+		337BEC992A4B0DAB007A1FE5 /* BouncingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC982A4B0DAB007A1FE5 /* BouncingButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		331631582A4B3A0700C0F8CC /* Common */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Common; path = ../Common; sourceTree = "<group>"; };
+		337BEC782A4ADCB8007A1FE5 /* FouDeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FouDeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		337BEC7B2A4ADCB8007A1FE5 /* FouDeFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FouDeFoodApp.swift; sourceTree = "<group>"; };
+		337BEC7D2A4ADCB8007A1FE5 /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+		337BEC7F2A4ADCBA007A1FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		337BEC812A4ADCBA007A1FE5 /* FouDeFood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FouDeFood.entitlements; sourceTree = "<group>"; };
+		337BEC832A4ADCBA007A1FE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		337BEC8A2A4ADD0F007A1FE5 /* FoodOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodOrderView.swift; sourceTree = "<group>"; };
+		337BEC8D2A4ADE01007A1FE5 /* RestaurantCreationFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCreationFormView.swift; sourceTree = "<group>"; };
+		337BEC902A4ADEA7007A1FE5 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		337BEC922A4ADEC9007A1FE5 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		337BEC942A4AE0E6007A1FE5 /* RestaurantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsView.swift; sourceTree = "<group>"; };
+		337BEC962A4AE2E1007A1FE5 /* ImageAndSubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAndSubtitleView.swift; sourceTree = "<group>"; };
+		337BEC982A4B0DAB007A1FE5 /* BouncingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		337BEC752A4ADCB8007A1FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		337BEC6F2A4ADCB8007A1FE5 = {
+			isa = PBXGroup;
+			children = (
+				331631582A4B3A0700C0F8CC /* Common */,
+				337BEC7A2A4ADCB8007A1FE5 /* FouDeFood */,
+				337BEC792A4ADCB8007A1FE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		337BEC792A4ADCB8007A1FE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				337BEC782A4ADCB8007A1FE5 /* FouDeFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		337BEC7A2A4ADCB8007A1FE5 /* FouDeFood */ = {
+			isa = PBXGroup;
+			children = (
+				337BEC7B2A4ADCB8007A1FE5 /* FouDeFoodApp.swift */,
+				337BEC922A4ADEC9007A1FE5 /* AppData.swift */,
+				337BEC8F2A4ADE83007A1FE5 /* Models */,
+				337BEC8C2A4ADD1C007A1FE5 /* Views */,
+				337BEC7F2A4ADCBA007A1FE5 /* Assets.xcassets */,
+				337BEC812A4ADCBA007A1FE5 /* FouDeFood.entitlements */,
+				337BEC822A4ADCBA007A1FE5 /* Preview Content */,
+			);
+			path = FouDeFood;
+			sourceTree = "<group>";
+		};
+		337BEC822A4ADCBA007A1FE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				337BEC832A4ADCBA007A1FE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		337BEC8C2A4ADD1C007A1FE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				337BEC7D2A4ADCB8007A1FE5 /* FoodListView.swift */,
+				337BEC8D2A4ADE01007A1FE5 /* RestaurantCreationFormView.swift */,
+				337BEC8A2A4ADD0F007A1FE5 /* FoodOrderView.swift */,
+				337BEC942A4AE0E6007A1FE5 /* RestaurantDetailsView.swift */,
+				337BEC962A4AE2E1007A1FE5 /* ImageAndSubtitleView.swift */,
+				337BEC982A4B0DAB007A1FE5 /* BouncingButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		337BEC8F2A4ADE83007A1FE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				337BEC902A4ADEA7007A1FE5 /* Restaurant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		337BEC772A4ADCB8007A1FE5 /* FouDeFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 337BEC872A4ADCBA007A1FE5 /* Build configuration list for PBXNativeTarget "FouDeFood" */;
+			buildPhases = (
+				337BEC742A4ADCB8007A1FE5 /* Sources */,
+				337BEC752A4ADCB8007A1FE5 /* Frameworks */,
+				337BEC762A4ADCB8007A1FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FouDeFood;
+			packageProductDependencies = (
+			);
+			productName = FouDeFood;
+			productReference = 337BEC782A4ADCB8007A1FE5 /* FouDeFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		337BEC702A4ADCB8007A1FE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					337BEC772A4ADCB8007A1FE5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 337BEC732A4ADCB8007A1FE5 /* Build configuration list for PBXProject "FouDeFood" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 337BEC6F2A4ADCB8007A1FE5;
+			packageReferences = (
+			);
+			productRefGroup = 337BEC792A4ADCB8007A1FE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				337BEC772A4ADCB8007A1FE5 /* FouDeFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		337BEC762A4ADCB8007A1FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337BEC842A4ADCBA007A1FE5 /* Preview Assets.xcassets in Resources */,
+				337BEC802A4ADCBA007A1FE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		337BEC742A4ADCB8007A1FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337BEC992A4B0DAB007A1FE5 /* BouncingButton.swift in Sources */,
+				337BEC912A4ADEA7007A1FE5 /* Restaurant.swift in Sources */,
+				337BEC8E2A4ADE01007A1FE5 /* RestaurantCreationFormView.swift in Sources */,
+				337BEC972A4AE2E1007A1FE5 /* ImageAndSubtitleView.swift in Sources */,
+				337BEC952A4AE0E6007A1FE5 /* RestaurantDetailsView.swift in Sources */,
+				337BEC7E2A4ADCB8007A1FE5 /* FoodListView.swift in Sources */,
+				337BEC7C2A4ADCB8007A1FE5 /* FouDeFoodApp.swift in Sources */,
+				337BEC8B2A4ADD0F007A1FE5 /* FoodOrderView.swift in Sources */,
+				337BEC932A4ADEC9007A1FE5 /* AppData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		337BEC852A4ADCBA007A1FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		337BEC862A4ADCBA007A1FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		337BEC882A4ADCBA007A1FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FouDeFood/FouDeFood.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FouDeFood/Preview Content\"";
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		337BEC892A4ADCBA007A1FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FouDeFood/FouDeFood.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FouDeFood/Preview Content\"";
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		337BEC732A4ADCB8007A1FE5 /* Build configuration list for PBXProject "FouDeFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337BEC852A4ADCBA007A1FE5 /* Debug */,
+				337BEC862A4ADCBA007A1FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		337BEC872A4ADCBA007A1FE5 /* Build configuration list for PBXNativeTarget "FouDeFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337BEC882A4ADCBA007A1FE5 /* Debug */,
+				337BEC892A4ADCBA007A1FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 337BEC702A4ADCB8007A1FE5 /* Project object */;
+}
