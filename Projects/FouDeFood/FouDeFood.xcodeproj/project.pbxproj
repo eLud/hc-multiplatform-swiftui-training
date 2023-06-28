@@ -14,7 +14,6 @@
 		337BEC8B2A4ADD0F007A1FE5 /* FoodOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC8A2A4ADD0F007A1FE5 /* FoodOrderView.swift */; };
 		337BEC8E2A4ADE01007A1FE5 /* RestaurantCreationFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC8D2A4ADE01007A1FE5 /* RestaurantCreationFormView.swift */; };
 		337BEC912A4ADEA7007A1FE5 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC902A4ADEA7007A1FE5 /* Restaurant.swift */; };
-		337BEC932A4ADEC9007A1FE5 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC922A4ADEC9007A1FE5 /* AppData.swift */; };
 		337BEC952A4AE0E6007A1FE5 /* RestaurantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC942A4AE0E6007A1FE5 /* RestaurantDetailsView.swift */; };
 		337BEC972A4AE2E1007A1FE5 /* ImageAndSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC962A4AE2E1007A1FE5 /* ImageAndSubtitleView.swift */; };
 		337BEC992A4B0DAB007A1FE5 /* BouncingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC982A4B0DAB007A1FE5 /* BouncingButton.swift */; };
@@ -31,7 +30,6 @@
 		337BEC8A2A4ADD0F007A1FE5 /* FoodOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodOrderView.swift; sourceTree = "<group>"; };
 		337BEC8D2A4ADE01007A1FE5 /* RestaurantCreationFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCreationFormView.swift; sourceTree = "<group>"; };
 		337BEC902A4ADEA7007A1FE5 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
-		337BEC922A4ADEC9007A1FE5 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		337BEC942A4AE0E6007A1FE5 /* RestaurantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsView.swift; sourceTree = "<group>"; };
 		337BEC962A4AE2E1007A1FE5 /* ImageAndSubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAndSubtitleView.swift; sourceTree = "<group>"; };
 		337BEC982A4B0DAB007A1FE5 /* BouncingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingButton.swift; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				337BEC7B2A4ADCB8007A1FE5 /* FouDeFoodApp.swift */,
-				337BEC922A4ADEC9007A1FE5 /* AppData.swift */,
 				337BEC8F2A4ADE83007A1FE5 /* Models */,
 				337BEC8C2A4ADD1C007A1FE5 /* Views */,
 				337BEC7F2A4ADCBA007A1FE5 /* Assets.xcassets */,
@@ -190,7 +187,6 @@
 				337BEC7E2A4ADCB8007A1FE5 /* FoodListView.swift in Sources */,
 				337BEC7C2A4ADCB8007A1FE5 /* FouDeFoodApp.swift in Sources */,
 				337BEC8B2A4ADD0F007A1FE5 /* FoodOrderView.swift in Sources */,
-				337BEC932A4ADEC9007A1FE5 /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

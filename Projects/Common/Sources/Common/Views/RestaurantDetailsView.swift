@@ -7,12 +7,16 @@
 
 import SwiftUI
 
-struct RestaurantDetailsView: View {
+public struct RestaurantDetailsView: View {
 
     let restaurant: Restaurant
     @State private var showImage = true
 
-    var body: some View {
+    public init(restaurant: Restaurant) {
+        self.restaurant = restaurant
+    }
+
+    public var body: some View {
         VStack {
             header
             VStack(alignment: .leading) {
