@@ -68,7 +68,7 @@ struct ImageAndSubtitleView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ImageAndSubtitleView(title: "Title", subtitle: "Subtitle", image: nil, imageURL: nil)
-            ImageAndSubtitleView(title: "Title", subtitle: "Subtitle", image: Image("meat"), imageURL: nil)
+            ImageAndSubtitleView(title: "Title", subtitle: "Subtitle", image: Image("meat", bundle: Bundle.module), imageURL: nil)
         }
             .previewLayout(.sizeThatFits)
     }

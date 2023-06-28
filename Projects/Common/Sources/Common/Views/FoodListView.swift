@@ -22,7 +22,7 @@ public struct FoodListView: View {
                     NavigationLink {
                         RestaurantDetailsView(restaurant: r)
                     } label: {
-                        ImageAndSubtitleView(title: r.name, subtitle: r.address, image: Image("meat"), imageURL: r.imageURL)
+                        ImageAndSubtitleView(title: r.name, subtitle: r.address, image: Image("meat", bundle: Bundle.module), imageURL: r.imageURL)
                     }
                 }
                 .toolbar {
