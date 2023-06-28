@@ -6,14 +6,15 @@
 //
 
 import SwiftUI
-import Common
 
-struct FoodListView: View {
+public struct FoodListView: View {
 
     @EnvironmentObject private var data: AppData
     @State private var showForm = false
 
-    var body: some View {
+    public init() {}
+
+    public var body: some View {
             if data.isLoading {
                 ProgressView()
             } else {

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RestaurantCreationFormView: View {
+public struct RestaurantCreationFormView: View {
 
     @EnvironmentObject private var data: AppData
     @Environment(\.dismiss) private var dismiss
@@ -18,7 +18,9 @@ struct RestaurantCreationFormView: View {
     @State private var restaurantType: Restaurant.RestaurantType = .onSite
     @State private var setImageOnCreation = false
 
-    var body: some View {
+    public init() { }
+
+    public var body: some View {
         Form {
             TextField("Name", text: $name)
             TextField("Address", text: $address)

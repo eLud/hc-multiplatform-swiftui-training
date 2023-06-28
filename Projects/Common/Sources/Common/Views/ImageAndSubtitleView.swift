@@ -7,14 +7,21 @@
 
 import SwiftUI
 
-struct ImageAndSubtitleView: View {
+public struct ImageAndSubtitleView: View {
 
     let title: String
     let subtitle: String
     let image: Image?
     let imageURL: URL?
 
-    var body: some View {
+    public init(title: String, subtitle: String, image: Image?, imageURL: URL?) {
+        self.title = title
+        self.subtitle = subtitle
+        self.image = image
+        self.imageURL = imageURL
+    }
+
+    public var body: some View {
         HStack {
             imageView
                 .frame(height: 60.0)

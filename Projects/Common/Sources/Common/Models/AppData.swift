@@ -7,12 +7,12 @@
 
 import Foundation
 
-class AppData: ObservableObject {
+public class AppData: ObservableObject {
 
-    @Published private(set) var restaurants: [Restaurant]
-    @Published var isLoading = false
+    @Published public private(set) var restaurants: [Restaurant]
+    @Published public var isLoading = false
 
-    init(fakeData: Bool = false) {
+    public init(fakeData: Bool = false) {
         isLoading = true
         if fakeData {
             let numberOfFakes = 10
@@ -31,7 +31,7 @@ class AppData: ObservableObject {
         }
     }
 
-    func addRestaurant(_ restaurant: Restaurant) {
+    public func addRestaurant(_ restaurant: Restaurant) {
         restaurants.append(restaurant)
     }
 }

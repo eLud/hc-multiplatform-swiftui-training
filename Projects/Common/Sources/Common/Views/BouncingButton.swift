@@ -7,11 +7,13 @@
 
 import SwiftUI
 
-struct BouncingButton: View {
+public struct BouncingButton: View {
 
     @State var bounce = false
 
-    var body: some View {
+    public init() { }
+
+    public var body: some View {
         Button {
             bounce = true
             DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(400)) {

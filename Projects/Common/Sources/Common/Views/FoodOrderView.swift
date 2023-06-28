@@ -7,8 +7,11 @@
 
 import SwiftUI
 
-struct FoodOrderView: View {
-    var body: some View {
+public struct FoodOrderView: View {
+
+    public init() {}
+    
+    public var body: some View {
         Text("Food Order View")
     }
 }
