@@ -36,7 +36,8 @@
 		33C4FA952A4DBD08007E9596 /* FoudDeFoodWidgetiOSBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C4FA942A4DBD08007E9596 /* FoudDeFoodWidgetiOSBundle.swift */; };
 		33C4FA972A4DBD08007E9596 /* FoudDeFoodWidgetiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C4FA962A4DBD08007E9596 /* FoudDeFoodWidgetiOS.swift */; };
 		33C4FA992A4DBD09007E9596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C4FA982A4DBD09007E9596 /* Assets.xcassets */; };
-		33C4FA9D2A4DBD09007E9596 /* FoudDeFoodWidgetiOSExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 33C4FA902A4DBD08007E9596 /* FoudDeFoodWidgetiOSExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33C4FA9D2A4DBD09007E9596 /* FoudDeFoodWidgetiOSExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 33C4FA902A4DBD08007E9596 /* FoudDeFoodWidgetiOSExtension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33C4FAA22A4DDEAA007E9596 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 33C4FAA12A4DDEAA007E9596 /* Credits.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +153,7 @@
 		33C4FA962A4DBD08007E9596 /* FoudDeFoodWidgetiOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoudDeFoodWidgetiOS.swift; sourceTree = "<group>"; };
 		33C4FA982A4DBD09007E9596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33C4FA9A2A4DBD09007E9596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C4FAA12A4DDEAA007E9596 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +278,7 @@
 				337BEC7F2A4ADCBA007A1FE5 /* Assets.xcassets */,
 				337BEC812A4ADCBA007A1FE5 /* FouDeFood.entitlements */,
 				337BEC822A4ADCBA007A1FE5 /* Preview Content */,
+				33C4FAA12A4DDEAA007E9596 /* Credits.rtf */,
 			);
 			path = FouDeFood;
 			sourceTree = "<group>";
@@ -552,6 +555,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				337BEC842A4ADCBA007A1FE5 /* Preview Assets.xcassets in Resources */,
+				33C4FAA22A4DDEAA007E9596 /* Credits.rtf in Resources */,
 				337BEC802A4ADCBA007A1FE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -664,6 +668,7 @@
 		};
 		33C4FA9C2A4DBD09007E9596 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 33C4FA8F2A4DBD08007E9596 /* FoudDeFoodWidgetiOSExtension */;
 			targetProxy = 33C4FA9B2A4DBD09007E9596 /* PBXContainerItemProxy */;
 		};

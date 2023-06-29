@@ -12,6 +12,10 @@ public struct FoodListView: View {
     @EnvironmentObject private var data: AppData
     @State private var showForm = false
 
+    #if os(macOS)
+    @Environment(\.openWindow) var openWindow
+    #endif
+
     public init() {}
 
     public var body: some View {
@@ -23,6 +27,11 @@ public struct FoodListView: View {
                         RestaurantDetailsView(restaurant: r)
                     } label: {
                         ImageAndSubtitleView(title: r.name, subtitle: r.address, image: Image("meat", bundle: Bundle.module), imageURL: r.imageURL)
+                            .contextMenu(ContextMenu(menuItems: {
+                                Button("Open in new window…") {
+                                    openWindow(value: r)
+                                }
+                            }))
                     }
                 }
                 #if os(watchOS)
@@ -33,6 +42,9 @@ public struct FoodListView: View {
                         Button(action: toggleForm) {
                             Label("Add", systemImage: "plus")
                         }
+                #if os(macOS) || os(iOS)
+                        .keyboardShortcut(.init("n"), modifiers: [.command, .shift])
+                #endif
                     }
                 }
                 .navigationTitle("Foodies")
@@ -44,7 +56,11 @@ public struct FoodListView: View {
     }
 
     private func toggleForm() {
+        #if os(macOS)
+        openWindow(id: "new-resto-window")
+        #else
         showForm.toggle()
+        #endif
     }
 }
 
