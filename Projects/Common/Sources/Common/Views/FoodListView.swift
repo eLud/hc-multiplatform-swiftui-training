@@ -25,6 +25,9 @@ public struct FoodListView: View {
                         ImageAndSubtitleView(title: r.name, subtitle: r.address, image: Image("meat", bundle: Bundle.module), imageURL: r.imageURL)
                     }
                 }
+                #if os(watchOS)
+                .listStyle(.carousel)
+                #endif
                 .toolbar {
                     ToolbarItem {
                         Button(action: toggleForm) {
