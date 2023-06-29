@@ -1,0 +1,6 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "Widget";
+/* Bundle name */
+"CFBundleName" = "WidgetExtension";
+/* Copyright (human-readable) */
+"NSHumanReadableCopyright" = "";
