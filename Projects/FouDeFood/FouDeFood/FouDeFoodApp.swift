@@ -90,7 +90,6 @@ struct FouDeFoodApp: App {
                         Label("B", systemImage: "b.circle")
                     }
             }.frame(width: 375, height: 150)
-
         }
 
         Window("About FouDeFood…", id: "about") {
